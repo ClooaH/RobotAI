@@ -1,16 +1,27 @@
 public class Robot {
 
-    private int hunger;
     private int posX;
     private int posY;
-    private boolean lightlover;
-    private String[] robots;
 
-    public Robot(int hunger, int posX, int posY, boolean lightlover) {
-        this.hunger = hunger;
+    public Robot(int posX, int posY) {
         this.posX = posX;
         this.posY = posY;
-        this.lightlover = lightlover;
+    }
+
+    public int getPosX() {
+        return posX;
+    }
+
+    public int getPosY() {
+        return posY;
+    }
+
+    public void setPosX(int posX) {
+        this.posX = posX;
+    }
+
+    public void setPosY(int posY) {
+        this.posY = posY;
     }
 
     public void lightCheck() {

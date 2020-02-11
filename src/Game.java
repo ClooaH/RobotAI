@@ -7,4 +7,10 @@ public class Game {
         this.fps = fps;
         this.world = world;
     }
+
+    public static void main(String[] args) {
+
+
+
+    }
 }
